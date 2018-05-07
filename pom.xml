@@ -10,7 +10,7 @@
     <packaging>pom</packaging>
 
     <name>AEM TU - Reactor Project</name>
-    <description>Projet one-module Maven pour AXA AEM.</description>
+    <description>Projet one-module Maven pour  AEM.</description>
 
     <!-- ====================================================================== -->
     <!-- P R O P E R T I E S -->

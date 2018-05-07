@@ -1,0 +1,10 @@
+{
+  "jcr:primaryType": "nt:unstructured",
+  "jcr:createdBy": "admin",
+  "jcr:lastModifiedBy": "admin",
+  "identite": "homme",
+  "jcr:created": "Mon Jul 17 2017 09:00:28 GMT+0000",
+  "nom": "TEST AEM",
+  "preNom": "TU AEM",
+  "jcr:lastModified": "Mon Jul 17 2017 09:01:47 GMT+0000"
+}

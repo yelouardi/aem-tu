@@ -16,6 +16,26 @@
     <!-- P R O P E R T I E S -->
     <!-- ====================================================================== -->
 
+     <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+    <groupId>external.atlassian.jgitflow</groupId>
+    <artifactId>jgitflow-maven-plugin</artifactId>
+    <version>1.0-m4.3</version>
+    <configuration>
+        <flowInitContext>
+            <masterBranchName>release</masterBranchName>
+            <developBranchName>master</developBranchName>
+            <releaseBranchPrefix>release-</releaseBranchPrefix>
+            <versionTagPrefix>release-</versionTagPrefix>
+        </flowInitContext>
+        <noReleaseMerge>true</noReleaseMerge>
+    </configuration>
+</plugin>
+            </plugins>
+         </pluginManagement>
+    </build>
     <modules>
         <module>core</module>
     </modules>
